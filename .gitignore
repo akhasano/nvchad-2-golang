@@ -1,9 +1,4 @@
-plugin
-custom
-spell
-syntax
 coc-settings.json
 .luarc.json
 lazy-lock.json
 after
-**/.DS_Store
