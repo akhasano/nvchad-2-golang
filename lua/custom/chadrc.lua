@@ -19,6 +19,7 @@ M.ui = {
 M.plugins = "custom.plugins"
 vim.cmd('set autochdir')
 vim.cmd('set mouse=r')
+vim.cmd('set foldmethod=manual')
 
 -- check core.mappings for table structure
 M.mappings = require "custom.mappings"
