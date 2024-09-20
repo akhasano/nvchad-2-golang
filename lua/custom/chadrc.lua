@@ -20,6 +20,8 @@ M.plugins = "custom.plugins"
 vim.cmd('set autochdir')
 vim.cmd('set mouse=r')
 vim.cmd('set foldmethod=manual')
+vim.cmd('set clipboard=unnamedplus')
+
 
 -- check core.mappings for table structure
 M.mappings = require "custom.mappings"
